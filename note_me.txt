@@ -30,6 +30,15 @@ tekan p
 delete buffer 
 tekan spasi + b + .... ada banyak
 
+jika ingin select kata dengan nama yang sama pakai * pidahnya pakai n dan N
+
+jika ingin mengganti beberapa kata yang sama sekaligus bisa dengan
+masuk ke cmdLine tulis %s/nama_yang_ingin_di_ganti/nama_gantinya
+misal kita ingin menganggi letna menjadi letnan di file yang sama
+tinggal masuk cmdline %s/letna/letnan
+jika ingin tidak ingin menggantinya semmua bisa kasih %s/letna/letnan/gc
+maka akan melakukan filter yang mana sa yang kita setujui
+
 catatan orang
 
 -- Default shortcuts
