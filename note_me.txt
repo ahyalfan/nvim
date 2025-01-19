@@ -27,6 +27,9 @@ tekan y + y
 malkukan paste 
 tekan p
 
+delete buffer 
+tekan spasi + b + .... ada banyak
+
 catatan orang
 
 -- Default shortcuts
