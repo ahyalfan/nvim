@@ -30,6 +30,8 @@ tekan p
 delete buffer 
 tekan spasi + b + .... ada banyak
 
+jika ingin menambahkan 1 baris di mode normal tekan o/O
+
 jika ingin select kata dengan nama yang sama pakai * pidahnya pakai n dan N
 
 jika ingin mengganti beberapa kata yang sama sekaligus bisa dengan
@@ -40,6 +42,60 @@ jika ingin tidak ingin menggantinya semmua bisa kasih %s/letna/letnan/gc
 maka akan melakukan filter yang mana sa yang kita setujui
 
 jika ingin zoom in dan zoom out tekan shift ctrl -/+
+
+jika ingin mengahapus beberapa karakter atau kalimat tanpa masuk mode insert
+
+### 1. **Menghapus Per Kata**
+
+Untuk menghapus teks satu kata dalam Vim, kamu bisa menggunakan perintah berikut:
+
+- **`dw`** - Menghapus satu kata dari posisi kursor hingga akhir kata.
+  - Contoh: Jika kursor berada di tengah kata "Hello", maka perintah ini akan menghapus "Hello".
+  
+- **`daw`** - Menghapus seluruh kata, termasuk spasi sebelum atau setelah kata.
+  - Contoh: Jika kursor berada di tengah "Hello world", perintah ini akan menghapus "Hello" beserta spasi setelahnya.
+
+- **`de`** - Menghapus dari posisi kursor hingga akhir kata (tanpa menghapus spasi setelahnya).
+  - Contoh: Jika kursor berada di tengah kata "Hello world", perintah ini akan menghapus "Hello" tetapi mempertahankan spasi setelahnya.
+
+### 2. **Menghapus Per Kalimat**
+Untuk menghapus seluruh kalimat, kamu bisa menggunakan perintah berikut:
+
+- **`d.`** - Menghapus satu kalimat dari posisi kursor.
+  - Contoh: Jika kursor berada di tengah kalimat "This is a test.", perintah ini akan menghapus "This is a test.".
+
+- **`d2.`** - Menghapus dua kalimat berturut-turut mulai dari posisi kursor.
+  - Contoh: Jika kursor berada di tengah kalimat pertama, perintah ini akan menghapus dua kalimat berturut-turut.
+
+- **`di"`** - Menghapus isi dalam tanda kutip (menggunakan tanda kutip ganda).
+  - Contoh: Jika kursor berada di dalam tanda kutip `"hello world"`, perintah ini akan menghapus teks di dalam tanda kutip tersebut.
+
+- **`di'`** - Menghapus isi dalam tanda kutip tunggal.
+  - Contoh: Jika kursor berada di dalam tanda kutip `'hello world'`, perintah ini akan menghapus teks di dalam tanda kutip tersebut.
+
+### 3. **Menghapus Seluruh Baris**
+Jika kamu ingin menghapus satu baris penuh:
+
+- **`dd`** - Menghapus seluruh baris tempat kursor berada.
+
+### 4. **Menghapus Hingga Karakter Tertentu**
+Kamu juga bisa menghapus teks hingga karakter tertentu dalam satu baris:
+
+- **`dF<char>`** - Menghapus hingga karakter `<char>` dari posisi kursor (termasuk karakter itu sendiri).
+  - Contoh: Jika kursor berada di "Hello, world!" dan kamu mengetik `dF,`, maka teks yang terhapus adalah "Hello,".
+
+- **`dT<char>`** - Menghapus hingga sebelum karakter `<char>`.
+  - Contoh: Jika kursor berada di "Hello, world!" dan kamu mengetik `dT,`, maka teks yang terhapus adalah "Hello".
+
+### Ringkasan:
+- **`dw`** - Hapus satu kata.
+- **`daw`** - Hapus seluruh kata.
+- **`d.`** - Hapus satu kalimat.
+- **`dd`** - Hapus satu baris.
+- **`dF<char>`** - Hapus hingga karakter tertentu, termasuk karakter itu sendiri.
+- **`dT<char>`** - Hapus hingga sebelum karakter tertentu.
+
+Semoga ini membantu! Jika ada pertanyaan lebih lanjut tentang cara menggunakan perintah-perintah ini, silakan ditanyakan!
 
 catatan orang
 
