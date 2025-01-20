@@ -15,7 +15,7 @@ return {
     get_meminfo()
 
     -- Setiap 5 detik (5000ms), perbarui statusline
-    vim.fn.timer_start(5000, function()
+    vim.fn.timer_start(10000, function()
       get_meminfo() -- Update nilai memori
       vim.cmd("redrawstatus") -- Perbarui statusline
     end)
