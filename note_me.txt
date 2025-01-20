@@ -39,6 +39,8 @@ tinggal masuk cmdline %s/letna/letnan
 jika ingin tidak ingin menggantinya semmua bisa kasih %s/letna/letnan/gc
 maka akan melakukan filter yang mana sa yang kita setujui
 
+jika ingin zoom in dan zoom out tekan shift ctrl -/+
+
 catatan orang
 
 -- Default shortcuts
