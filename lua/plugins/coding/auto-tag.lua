@@ -1,3 +1,5 @@
+-- installasi plugin custom usage lazy.vim plugin manager
+-- plugin auto-tag nvim
 return {
   "windwp/nvim-ts-autotag",
   event = { "BufReadPost", "BufWritePost", "BufNewFile" },
