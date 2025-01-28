@@ -1,4 +1,5 @@
 shorcute - shorcute 
+tutup window tekan q atau ctr + w +c
 
   1. mode - mode
     masuk mode insert
