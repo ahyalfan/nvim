@@ -15,7 +15,8 @@ return {
     local function get_cpuinfo()
       -- Mengambil informasi penggunaan CPU dengan perintah 'top'
       -- untuk menghitung persentase penggunaan CPU dengan mengurangi idle dari 100
-      cpuinfo = vim.fn.system("top -bn1 | grep 'Cpu(s)' | awk -F'[,id]*' '{print 100 - $4}'"):gsub("\n", "")
+      -- cpuinfo = vim.fn.system("top -bn1 | grep 'Cpu(s)' | awk -F'[,id]*' '{print 100 - $4}'"):gsub("\n", "")
+      cpuinfo = vim.fn.system("top -bn1 | grep 'Cpu(s)' | awk '{print $2 + $4}'"):gsub("\n", "")
     end
 
     -- Ambil memori pertama kali saat startup
