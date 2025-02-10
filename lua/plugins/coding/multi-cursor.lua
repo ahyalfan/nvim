@@ -1,5 +1,7 @@
+-- kita nonaktifkan dahulu karena masih belum butuh
 return {
-  "mg979/vim-visual-multi",
+
+  -- "mg979/vim-visual-multi",
 }
 
 -- ### 2. Menggunakan Banyak Kursor
