@@ -20,3 +20,9 @@ vim.api.nvim_set_keymap("n", "<leader>fg", ":Telescope live_grep<CR>", { noremap
 local map = vim.keymap.set
 
 map("c", "<C-v>", "<C-R>+", { noremap = true })
+-- Hapus baris tanpa ganggu register
+map("n", "dd", '"_dd', { desc = "Delete line without overwriting register" })
+-- Hapus kata tanpa ganggu register
+map("n", "dw", '"_dw', { desc = "Delete word without overwriting register" })
+-- Hapus visual selection tanpa overwrite
+map("v", "d", '"_d', { desc = "Visual delete without overwriting register" })
