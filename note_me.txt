@@ -46,6 +46,9 @@ jika ingin zoom in dan zoom out tekan shift ctrl -/+
 
 jika ingin mengahapus beberapa karakter atau kalimat tanpa masuk mode insert
 
+jika ingin meperpanajng terminal yang displit di neovim bsia masuk ke mode normal lalu tekan ctr + b arrow up/down
+atau ctr + up/down
+
 ### 1. **Menghapus Per Kata**
 
 Untuk menghapus teks satu kata dalam Vim, kamu bisa menggunakan perintah berikut:
