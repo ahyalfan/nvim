@@ -54,3 +54,11 @@ require("lazy").setup({
     },
   },
 })
+
+-- 🧠 Konsep Penting:
+-- install.colorscheme bukan tempat install plugin.
+--
+-- Itu hanya memberitahu Lazy.nvim:
+-- "Kalau tidak ada theme lain disetel, pakai salah satu ini (kalau tersedia)."
+--
+-- Tapi agar tokyonight bisa dipakai, kamu tetap harus install plugin-nya dulu.
