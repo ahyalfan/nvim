@@ -55,6 +55,9 @@ require("lazy").setup({
   },
 })
 
+-- Panggil config dadbod setelah setup plugin
+require("config.dadbod")
+
 -- 🧠 Konsep Penting:
 -- install.colorscheme bukan tempat install plugin.
 --
