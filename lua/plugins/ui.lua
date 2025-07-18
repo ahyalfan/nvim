@@ -1,0 +1,22 @@
+return {
+  -- {
+  --   "goolord/alpha-nvim",
+  --   opts = function(_, opts)
+  --     local dashboard = require("alpha.themes.dashboard")
+  --
+  --     -- Ganti header ASCII art jadi "Ahmad"
+  --     dashboard.section.header.val = {
+  --       "    █████╗ ██╗  ██╗███╗   ███╗ █████╗ ██████╗ ",
+  --       "   ██╔══██╗██║ ██╔╝████╗ ████║██╔══██╗██╔══██╗",
+  --       "   ███████║█████╔╝ ██╔████╔██║███████║██████╔╝",
+  --       "   ██╔══██║██╔═██╗ ██║╚██╔╝██║██╔══██║██╔═══╝ ",
+  --       "   ██║  ██║██║  ██╗██║ ╚═╝ ██║██║  ██║██║     ",
+  --       "   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ",
+  --       "",
+  --       "               Welcome, Ahmad!",
+  --     }
+  --
+  --     opts.config = dashboard
+  --   end,
+  -- },
+}
