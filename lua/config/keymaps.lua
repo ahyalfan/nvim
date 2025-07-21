@@ -17,6 +17,9 @@ vim.api.nvim_set_keymap("n", "<leader>ff", ":Telescope find_files<CR>", { norema
 
 vim.api.nvim_set_keymap("n", "<leader>fg", ":Telescope live_grep<CR>", { noremap = true, silent = true })
 
+-- Keybinding untuk memformat JSON dengan jq
+vim.api.nvim_set_keymap("n", "<leader>j", ":%!jq .<CR>", { noremap = true, silent = true })
+
 local map = vim.keymap.set
 
 map("c", "<C-v>", "<C-R>+", { noremap = true })
