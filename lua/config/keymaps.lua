@@ -18,7 +18,7 @@ vim.api.nvim_set_keymap("n", "<leader>ff", ":Telescope find_files<CR>", { norema
 vim.api.nvim_set_keymap("n", "<leader>fg", ":Telescope live_grep<CR>", { noremap = true, silent = true })
 
 -- Keybinding untuk memformat JSON dengan jq
-vim.api.nvim_set_keymap("n", "<leader>j", ":%!jq .<CR>", { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("n", "<leader>j", ":%!jq .<CR>", { noremap = true, silent = true })
 
 local map = vim.keymap.set
 
@@ -29,3 +29,9 @@ map("n", "dd", '"_dd', { desc = "Delete line without overwriting register" })
 map("n", "dw", '"_dw', { desc = "Delete word without overwriting register" })
 -- Hapus visual selection tanpa overwrite
 map("v", "d", '"_d', { desc = "Visual delete without overwriting register" })
+
+map("n", "<leader>j", ":%!jq .<CR>", { desc = "json formatter", noremap = true, silent = true })
+
+-- silent
+-- Pemetaan tanpa silent: menampilkan pesan di command line
+-- Pemetaan dengan silent: tidak menampilkan pesan di command line
