@@ -1,4 +1,4 @@
--- https://github.com/ellisonleao/dotenv.nvim?utm_source=chatgpt.com
+-- https://github.com/ellisonleao/dotenv.nvim
 return {
   --   {
   --     "ellisonleao/dotenv.nvim",

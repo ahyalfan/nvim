@@ -1,4 +1,4 @@
-print("DB_USER:", vim.env.DB_USER)
+-- print("DB_USER:", vim.env.DB_USER)
 
 -- vim.g.dbs =
 --   {
