@@ -35,3 +35,5 @@ map("n", "<leader>j", ":%!jq .<CR>", { desc = "json formatter", noremap = true, 
 -- silent
 -- Pemetaan tanpa silent: menampilkan pesan di command line
 -- Pemetaan dengan silent: tidak menampilkan pesan di command line
+
+map("n", "<C-p>", ":FloatermToggle<CR>", { desc = "floating terminal", silent = true })
