@@ -37,3 +37,4 @@ map("n", "<leader>j", ":%!jq .<CR>", { desc = "json formatter", noremap = true, 
 -- Pemetaan dengan silent: tidak menampilkan pesan di command line
 
 map("n", "<C-p>", ":FloatermToggle<CR>", { desc = "floating terminal", silent = true })
+map("n", "<C-t>", ":Typr<CR>", { desc = "typing race", silent = true })
