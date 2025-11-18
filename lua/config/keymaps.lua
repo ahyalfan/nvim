@@ -15,7 +15,7 @@ vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 vim.api.nvim_set_keymap("n", "<leader>ff", ":Telescope find_files<CR>", { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap("n", "<leader>fg", ":Telescope live_grep<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>fa", ":Telescope live_grep<CR>", { noremap = true, silent = true })
 
 -- Keybinding untuk memformat JSON dengan jq
 -- vim.api.nvim_set_keymap("n", "<leader>j", ":%!jq .<CR>", { noremap = true, silent = true })
