@@ -36,5 +36,20 @@ baru menemukan ini, jadi masih pakai cara yg sama vim
 6.baru kemudian tekan enter
 
 
-
+Ingin menambahkan di awal semua baris.
+1. Posisikan kursor di awal baris pertama.
+2. Tekan `Ctrl+v` untuk masuk Visual Block Mode.
+3. Tekan `j` atau `k` untuk memilih beberapa baris.
+4. Tekan `I` (huruf i besar).
+5. Tekan `Tab` (atau ketik teks yang ingin ditambahkan).
+6. Tekan `Esc`.
+  Selain `I` (insert di awal), ada beberapa perintah lain yang berguna setelah memilih blok dengan `Ctrl+v`:
+    * `I` → insert di awal semua baris terpilih.
+    * `A` → append di akhir semua baris terpilih.
+    * `c` → ganti (change) bagian yang dipilih dengan teks baru.
+    * `C` → ganti dari posisi kursor sampai akhir baris pada semua baris yang dipilih.
+    * `d` atau `x` → hapus blok yang dipilih.
+    * `r` → ganti karakter yang dipilih dengan satu karakter tertentu.
+    * `~` → toggle huruf besar/kecil pada blok.
+    * `>` atau `<` → indent/unindent blok.
 
